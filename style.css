@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background: wheat; */
+    background: linear-gradient(to right, #dae2f8, #d6a4a4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+} 
+h2{
+ 
+    margin-bottom: 0px;
+   
+}
+.name{
+    display: flex;
+    justify-content: center;
+  
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    margin-bottom: 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 10px;
+}
+li a:hover{
+    color: rgb(167, 88, 143);
+}
+.photo1{
+    background-image: url(https://burgershop.templates.editmysite.com/uploads/8/8/9/6/88968090/background-images/984255914.jpg);
+    height: 540px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.photo2{
+    background-image: url(https://urbandine.templates.editmysite.com/uploads/8/9/5/0/89502725/background-images/39374136.png);
+    height: 540px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.photo3{
+    background-image: url(https://images.everydayhealth.com/images/thyroid-conditions/foods-to-avoid-with-hypothyroidism-02-1440x810.jpg?w=720);
+    height: 540px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.burger-name{
+    height: 390px;
+    width: 1000px;
+    background-color: transparent;
+}
+.burger-name1{
+        font-family: "Droid Serif" !important;
+        font-weight: 700 !important;
+        color: #fff !important;
+        font-style: normal !important;
+        text-transform: uppercase !important;
+        letter-spacing: 4px !important;
+        font-size: 4rem;
+}
+.burger-name2{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    font-family: "Open Sans";
+    /* text-transform: capitalize; */
+    color: #fff;
+}
+.burger-name3{
+    margin-top: 55px;
+/* margin-left: 90px; */
+height: 40px;
+width: 106px;
+font-size: 14px;
+text-transform: uppercase;
+cursor: pointer;
+display: inline-block;
+background: #333333;
+color: #dddddd;
+/* border-color: #ddd; */
+border: none;
+font-family: "Montserrat";
+}
+.burger-name3:hover{
+    background-color: whitesmoke;
+    color: #333333;
+}
+.login{
+    /* background-color: #fbf8f8; */
+    background: linear-gradient(to right, #d3959b, #bfe6ba);
+    height: 590px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-weight: 700;
+    
+}
+.login-div{
+    width: 460px;
+    height: 535px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    /* background: #ecf0f3; */
+    background: linear-gradient(to right, #efefbb, #d4d3dd);
+    /* box-shadow: 13px 13px 20px #cbced1, */
+                /* -13px -13px 20px #ffffff; */
+    text-align: center;                                      
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+.field{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.field input{
+    border:none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.username{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                /* color: black; */
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset; */
+}
+.username, .user-input, .pass-input{
+    text-align: start;
+}
+.field svg{
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+.signin-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato' , sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #24cfaa;
+    transition: 0.5s;
+
+}
+.signin-button:hover{
+    background: #2fdbb6;
+}
+.signin-button:active{
+    background: #1da88a;
+}
+.link{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
