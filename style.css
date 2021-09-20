@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    /* background: linear-gradient(to right, #334d50, #cbcaa5); */
+}
 .header{
     /* background: wheat; */
     background: linear-gradient(to right, #dae2f8, #d6a4a4);
@@ -281,4 +284,18 @@ background-color: #fbf8f8;
     text-decoration: none;
     color: #aaa;
     font-size: 15px;
+}
+.footer{
+    height: 6vh;
+    /* background-color: #1d6ded; */
+    background: linear-gradient(to right, #dae2f8, #d6a4a4);
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    text-align: center;
+    color: #333333;
 }

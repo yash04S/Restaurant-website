@@ -14,9 +14,14 @@
             padding: 0;
         }
 
+        body {
+            background: linear-gradient(to right, #334d50, #cbcaa5);
+        }
+
         .header {
             /* background: wheat; */
-            background: linear-gradient(to right, #dae2f8, #d6a4a4);
+            /* background: linear-gradient(to right, #dae2f8, #d6a4a4); */
+            background: linear-gradient(to right, #334d50, #cbcaa5);
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
@@ -61,6 +66,122 @@
         li a:hover {
             color: #ffffff;
         }
+
+        .main-heading {
+            height: 130px;
+            background-color: transparent;
+            /* background: violet; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            flex-direction: column;
+        }
+
+        .about-us {
+            width: 1100px;
+            height: 50px;
+            background: transparent;
+            /* background: turquoise; */
+            /* color: rgb(162, 126, 173); */
+            color: black;
+            font-size: 40px;
+            text-transform: capitalize;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 600;
+
+        }
+
+        .paragraph {
+            /* background: tomato; */
+            background: transparent;
+            width: 1100px;
+            margin-top: 25px;
+            font-size: 18px;
+            color: #042940;
+            line-height: 20px;
+            display: inline-block;
+            text-align: left;
+            box-sizing: border-box;
+
+        }
+
+        .main-heading2 {
+            /* background: violet; */
+            background: transparent;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about-us2 {
+            width: 1120px;
+            height: 100px;
+            /* background: yellow; */
+            background: transparent;
+            text-align: left;
+            letter-spacing: normal;
+            margin-bottom: 20px;
+            line-height: 24px;
+            font-size: 18px;
+            color: #4a4a4a;
+            font-family: 'Raleway', sans-serif;
+            padding: 0 10px;
+        }
+
+        .image {
+            height: max-content;
+            /* background: yellow; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image1 {
+            height: 400px;
+            width: 1120px;
+            background: violet;
+            background-image: url(https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+        }
+
+        .main-heading3 {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            /* background-color: yellow; */
+        }
+
+        .about-us3 {
+            /* background-color: #042940; */
+            height: max-content;
+            width: 1120px;
+            letter-spacing: normal;
+            /* margin-bottom: 20px; */
+            line-height: 24px;
+            font-size: 18px;
+            color: #4a4a4a;
+            font-family: 'Raleway', sans-serif;
+            padding: 0 10px;
+            margin-top: 30px;
+
+        }
+
+        .footer {
+            height: 6vh;
+            /* background-color: #1d6ded; */
+            background: linear-gradient(to right, #334d50, #cbcaa5);
+            color: white;
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center {
+            text-align: center;
+            color: #333333;
+        }
     </style>
 </head>
 
@@ -82,6 +203,51 @@
             </ul>
         </nav>
     </header>
+    <div class="main-heading">
+        <h2 class="about-us">About Y K S Food Point</h2>
+        <p class="paragraph">
+
+            A little about us and a breif history of how we started.
+        </p>
+    </div>
+    <div class="main-heading2">
+        <p class="about-us2"><strong>Y K S Restaurants Ltd</strong>, a Mumbai based Company, is a part of <strong> Y K S
+                Group</strong>. Our Company
+            was established in 2007 and started its business operations from November 2013 for undertaking activities in
+            the hospitality vertical. The Y K S Group is a known name in Hotel & Restaurant Industry segment.</p>
+    </div>
+    <div class="image">
+        <div class="image1"></div>
+    </div>
+    <div class="main-heading3">
+        <p class="about-us3">Our company operates a chain of restaurants serving hygienic standardised food items in a
+            quick-serve format at various locations on national highways, state highways and cities. Currently, our
+            Company has more than 40 operating restaurants in Western India having their presence on major highways. Our
+            Company believes in providing quality food in hygienic surroundings at convenient locations for serving our
+            customers better. Hygiene, quality and customer satisfaction are core concepts exercised by our team at all
+            outlets which distinguish us from local restaurants. Our hygienic and convenient locations, dedicated team
+            efforts, quality of service and products are our strengths which help us work towards our long-term vision
+            of being the largest trusted & premium vegetarian family restaurants.</p>
+    </div>
+    <div class="main-heading3">
+        <p class="about-us3">Over the years The Y K S Group has been instrumental in the launch of successful
+            hospitality verticals and Restaurants Brand '' <strong> K S Food Point Original Family Restaurants</strong>'
+            ' and ''<strong> K S Original Family Restaurants</strong>'.'.</p>
+    </div>
+    <div class="main-heading3">
+        <p class="about-us3">The Company started its operations in November 2013. Since then, the company has been
+            expanding its restaurant chain and concentrated on standardising its products and services through
+            centralised purchasing and training systems. As of today, there are more than 40 operational restaurants in
+            the company. The Y K S Group has emerged as a symbol of quality, originality and truth, which has, in turn,
+            nurtured trust among people for our services. Hence our Group has earned the tag line “<strong> Achha Hai
+                Sachha Hai</strong>”.</p>
+    </div>
+    <div class="footer">
+        
+        <footer class="center">
+            <p>Y K S COPYRIGHT &COPY;2021-2022</p>
+        </footer>
+    </div>
 </body>
 
 </html>
