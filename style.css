@@ -13,7 +13,7 @@
 } 
 h2{
  
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
    
 }
 .name{
@@ -41,7 +41,7 @@ nav ul li a{
     padding-bottom: 10px;
 }
 li a:hover{
-    color: rgb(167, 88, 143);
+    color: #ffffff;
 }
 .photo1{
     background-image: url(https://burgershop.templates.editmysite.com/uploads/8/8/9/6/88968090/background-images/984255914.jpg);
@@ -119,11 +119,89 @@ font-family: "Montserrat";
     background-color: whitesmoke;
     color: #333333;
 }
+.subheader1{
+    margin: 19px 2px;
+background-color: #fbf8f8;
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: center;
+border: .1px solid ghostwhite;
+text-transform: uppercase;
+}
+.subheader2{
+    background-color: #fbf8f8;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    border: .1px solid ghostwhite;
+}
+img{
+    width: 200px;
+    height: 225px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 8px;
+    align-items: center;
+    height: 90%;
+}
+.class{
+    width: 200px;
+    height: 225px;
+    transition: 0.3s;
+}
+.class:hover{
+    transform: scale(1.1);
+}
+.text_container{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.class2{
+  
+    font-size: 15px;
+ font-weight: 500;
+ font-family:  Roboto,Arial,sans-serif;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+.class3{
+    color: #11c29b;
+}
+.food-name1{
+    margin-top: 20px;
+background: darkgray;
+height: 50px;
+width: 240px;
+/* margin-bottom: 40px; */
+/* padding-bottom: 40px; */
+position: relative;
+bottom: 40px;
+border: none;
+}
+.subheader3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #fbf8f8;
+/* position: absolute; */
+}
+.food-name1:hover{
+    background-color: #ffffff;
+}
+
 .login{
     /* background-color: #fbf8f8; */
     background: linear-gradient(to right, #d3959b, #bfe6ba);
     height: 590px;
-    margin-top: 20px;
+    margin-top: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
