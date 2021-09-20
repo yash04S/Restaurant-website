@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .header {
+            /* background: wheat; */
+            background: linear-gradient(to right, #dae2f8, #d6a4a4);
+            /* background: linear-gradient(to right, #334d50, #cbcaa5); */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100px;
+        }
+
+        h2 {
+
+            margin-bottom: 0px;
+
+        }
+
+        .name {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul {
+            height: 58px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 0 23px;
+            margin-bottom: 25px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            padding-bottom: 10px;
+        }
+
+        li a:hover {
+            color: #ffffff;
+        }
+
+        .login {
+            /* background-color: #fbf8f8; */
+            /* background: linear-gradient(to right, #d3959b, #bfe6ba); */
+
+            height: 590px;
+            margin-top: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            font-weight: 700;
+
+        }
+
+        .login-div {
+            width: 460px;
+            height: 535px;
+            padding: 60px 35px 35px 35px;
+            border-radius: 40px;
+            /* background: #ecf0f3; */
+            background: linear-gradient(to right, #efefbb, #d4d3dd);
+            /* background: linear-gradient(to right, #334d50, #cbcaa5); */
+            /* box-shadow: 13px 13px 20px #cbced1, */
+            /* -13px -13px 20px #ffffff; */
+            text-align: center;
+            font-size: 28px;
+            padding-top: 24px;
+            letter-spacing: 0.5px;
+        }
+
+        .field {
+            width: 100%;
+            padding: 75px 5px 5px 5px;
+        }
+
+        .field input {
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 18px;
+            color: #555;
+            padding: 20px 10px 20px 5px;
+        }
+
+        .username {
+            margin-bottom: 30px;
+            border-radius: 25px;
+            box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+            /* color: black; */
+            /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset; */
+        }
+
+        .username,
+        .user-input,
+        .pass-input {
+            text-align: start;
+        }
+
+        .field svg {
+            height: 22px;
+            margin: 0 10px -3px 25px;
+        }
+
+        .signin-button {
+            outline: none;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            height: 60px;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Lato', sans-serif;
+            color: #fff;
+            text-align: center;
+            background: #24cfaa;
+            transition: 0.5s;
+
+        }
+
+        .signin-button:hover {
+            background: #2fdbb6;
+        }
+
+        .signin-button:active {
+            background: #1da88a;
+        }
+
+        .footer {
+            height: 6vh;
+            /* background-color: #1d6ded; */
+            /* background: linear-gradient(to right, #334d50, #cbcaa5); */
+            color: white;
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid lightgrey;
+        }
+
+        .center {
+            text-align: center;
+            color: #333333;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="loco">
+            <h2>New Y K S Food Point</h2>
+            <span class="name"> Original Family Restaurant</span>
+            <span class="name"> Delhiwala Taste</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Dell/OneDrive/Desktop/Restaurant%20url/index.html">Home</a></li>
+                <li><a href="file:///C:/Users/Dell/OneDrive/Desktop/Restaurant%20url/about.html">About US </a></li>
+                <li><a href="file:///C:/Users/Dell/OneDrive/Desktop/Restaurant%20url/ourbrand.html">Our Brands</a></li>
+                <li><a href="file:///C:/Users/Dell/OneDrive/Desktop/Restaurant%20url/menu.html">Menu</a></li>
+                <li><a href="file:///C:/Users/Dell/OneDrive/Desktop/Restaurant%20url/review.html">Review Us</a></li>
+                <li><a href="file:///C:/Users/Dell/OneDrive/Desktop/Restaurant%20url/contact.html">Contact US </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="login">
+        <div class="login-div">Y K S Review
+
+            <div class="field">
+                <div class="username"><svg class="svg-icon" viewBox="0 0 20 20">
+                        <path
+                            d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z">
+                        </path>
+                    </svg><input type="username" class="user-input" placeholder="Email" />
+                </div>
+                <div class="username"><svg class="svg-icon" viewBox="0 0 20 20">
+                        <path
+                            d="M13.372,1.781H6.628c-0.696,0-1.265,0.569-1.265,1.265v13.91c0,0.695,0.569,1.265,1.265,1.265h6.744c0.695,0,1.265-0.569,1.265-1.265V3.045C14.637,2.35,14.067,1.781,13.372,1.781 M13.794,16.955c0,0.228-0.194,0.421-0.422,0.421H6.628c-0.228,0-0.421-0.193-0.421-0.421v-0.843h7.587V16.955z M13.794,15.269H6.207V4.731h7.587V15.269z M13.794,3.888H6.207V3.045c0-0.228,0.194-0.421,0.421-0.421h6.744c0.228,0,0.422,0.194,0.422,0.421V3.888z">
+                        </path>
+                    </svg><input type="username" class="user-input" placeholder="Phone Number" />
+                </div>
+                <div class="username"><svg class="svg-icon" viewBox="0 0 20 20">
+                        <path
+                            d="M17.211,3.39H2.788c-0.22,0-0.4,0.18-0.4,0.4v9.614c0,0.221,0.181,0.402,0.4,0.402h3.206v2.402c0,0.363,0.429,0.533,0.683,0.285l2.72-2.688h7.814c0.221,0,0.401-0.182,0.401-0.402V3.79C17.612,3.569,17.432,3.39,17.211,3.39M16.811,13.004H9.232c-0.106,0-0.206,0.043-0.282,0.117L6.795,15.25v-1.846c0-0.219-0.18-0.4-0.401-0.4H3.189V4.19h13.622V13.004z">
+                        </path>
+                    </svg><input type="username" class="user-input" placeholder="Description" />
+                </div>
+            </div>
+            <button class="signin-button">Submit</button>
+        </div>
+    </div>
+    <div class="footer">
+
+        <footer class="center">
+            <p>Y K S COPYRIGHT &COPY;2021-2022</p>
+        </footer>
+    </div>
+</body>
+
+</html>
