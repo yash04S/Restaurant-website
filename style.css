@@ -66,9 +66,9 @@ li a:hover{
     margin-top: 10px;
 }
 .photo3{
-    background-image: url(https://images.everydayhealth.com/images/thyroid-conditions/foods-to-avoid-with-hypothyroidism-02-1440x810.jpg?w=720);
+    background-image: url(https://i.ytimg.com/vi/B608Kki-Tek/maxresdefault.jpg);
     height: 540px;
-    width: 100%;
+    /* width: 100%; */
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: cover;
@@ -118,6 +118,7 @@ font-family: "Montserrat";
 .burger-name3:hover{
     background-color: whitesmoke;
     color: #333333;
+    border: 1px solid black;
 }
 .subheader1{
     margin: 19px 2px;
@@ -195,6 +196,7 @@ background-color: #fbf8f8;
 }
 .food-name1:hover{
     background-color: #ffffff;
+    border: 1px solid black;
 }
 
 .login{
